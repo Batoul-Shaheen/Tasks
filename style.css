@@ -1,0 +1,22 @@
+ /* Task 1 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+ul li {
+    font-weight: bold;
+    color: green;
+}
