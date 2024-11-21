@@ -1,3 +1,4 @@
+// Task 4
 function calculateTotalPrice(products) {
     return products.reduce(function (total, product) { return total + product.price; }, 0);
 }
@@ -7,6 +8,7 @@ var products = [
     { name: 'ear ring', price: 25.0 },
 ];
 console.log('Total Price:', calculateTotalPrice(products));
+
 // Task 5
 function isValidEmail(email) {
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
